@@ -85,6 +85,7 @@ a:hover {
 
 .img-team {
   margin: 10px;
+  transition: 0.3s;
 }
 
 .img-team:hover {
