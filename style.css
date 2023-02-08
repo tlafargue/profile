@@ -44,7 +44,9 @@ a:hover {
   background-color: #2D133F;
   padding: 15px;
   border-radius: 6px;
-  margin: 40px 0;
+  display: inline-block;
+  width: 200px;
+  margin-top: 20px;
 }
 
 .btn:hover {
@@ -78,10 +80,6 @@ a:hover {
 .img-circle {
   width: 200px;
   border-radius: 50%;
-}
-
-.img-profile {
-  margin-bottom: 30px;
 }
 
 .img-team {
