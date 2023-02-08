@@ -12,12 +12,11 @@
     <div class="container">
       <div class="card">
         <h1>Thibault Lafargue<br>S . A . U . V . E . U . R</h1>
-        <!-- Super Administrateur Unificateur Volontaire Efficace Ultraperformant Raisonnable -->
         <h2>du secteur J-8 de la confédération galactique de la voie lactée</h2>
 
         <img class="img-circle img-profile" src="images/thibault.jpg" alt="Thibault Lafargue - S.A.U.V.E.U.R du secteur J-8">
         <br>
-        <a class="btn" href="https://serve.now">Entrer en servitude</a>
+        <a class="btn" onclick="document.querySelector('dialog').showModal()">Entrer en servitude</a>
       </div>
       <div class="card">
         <p>
@@ -57,5 +56,18 @@
           <li>Consultez mes <strong>conflits d'intérêts</strong> sur <a href="https://bought.out/sauveur">BoughtOut <i class="fa-solid fa-sack-dollar"></i></a></li>
         </ul>
       </div>
+
+      <dialog>
+        <h2>Formulaire de servitude</h2>
+        <form>
+          <input type="text" placeholder="Prénom">
+          <input type="text" placeholder="Nom">
+          <input type="text" placeholder="Groupe sanguin">
+          <input type="password" placeholder="Code de compte bancaire">
+          <p>J'accepte de renoncer à mon autonomie et à mon âme pour entrer en servitude de l'empire intergalactique</p>
+          <input type="checkbox"><br>
+          <input class="btn" type="submit" value="Vendre mon âme">
+        </form>
+      </dialog>
   </body>
 </html>

@@ -47,6 +47,7 @@ a:hover {
   display: inline-block;
   width: 200px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -89,6 +90,10 @@ a:hover {
 .social-list {
   list-style: none;
   padding-left: 0px;
+}
+
+dialog {
+  text-align: center;
 }
 
 @media (max-width: 960px) {
