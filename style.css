@@ -46,7 +46,7 @@ a:hover {
   border-radius: 6px;
   display: inline-block;
   width: 200px;
-  margin-top: 20px;
+  margin: 20px;
   cursor: pointer;
 }
 
