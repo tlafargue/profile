@@ -87,6 +87,10 @@ a:hover {
   margin: 10px;
 }
 
+.img-team:hover {
+  opacity: 50%;
+}
+
 .social-list {
   list-style: none;
   padding-left: 0px;
