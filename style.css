@@ -66,11 +66,8 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
   border-radius: 8px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 20px;
+  padding: 30px;
+  margin: 20px auto;
 }
 
 .small-text {
